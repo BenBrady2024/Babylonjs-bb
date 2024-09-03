@@ -13,7 +13,7 @@ class Playground {
         var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), scene);
 
         // Default intensity is 1. Let's dim the light a small amount
-        light.intensity = 0.7;
+        light.intensity = 0.6;
 
         // Our built-in 'sphere' shape. Params: name, options, scene
         var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 2, segments: 32 }, scene);
